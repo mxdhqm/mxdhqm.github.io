@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mxdhqm&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://mxdhqm.com/"/>
+  <updated>2019-04-08T01:15:52.802Z</updated>
+  <id>https://mxdhqm.com/</id>
+  
+  <author>
+    <name>mxdhqm</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VPS Notes</title>
+    <link href="https://mxdhqm.com/2017/08/27/VPS%20Notes/"/>
+    <id>https://mxdhqm.com/2017/08/27/VPS Notes/</id>
+    <published>2017-08-27T06:38:11.000Z</published>
+    <updated>2019-04-08T01:15:52.802Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;个人VPS折腾笔记(Based on Center OS 7)&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Notes" scheme="https://mxdhqm.com/categories/Notes/"/>
+    
+    
+      <category term="VPS Notes" scheme="https://mxdhqm.com/tags/VPS-Notes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CocoaPod的使用</title>
+    <link href="https://mxdhqm.com/2016/10/06/using%20cocoapod/"/>
+    <id>https://mxdhqm.com/2016/10/06/using cocoapod/</id>
+    <published>2016-10-06T01:23:15.000Z</published>
+    <updated>2017-09-05T01:31:14.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;macOS Sierra 出来了半个月了吧，电脑iCloud一直有问题没时间弄，十一期间决定重新安装了电脑，由于不想使用Time Machine，故安装完后环境啥的都要重新配置了。。。。。。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="https://mxdhqm.com/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="https://mxdhqm.com/tags/iOS/"/>
+    
+      <category term="CocoaPod" scheme="https://mxdhqm.com/tags/CocoaPod/"/>
+    
+      <category term="using CocoaPod" scheme="https://mxdhqm.com/tags/using-CocoaPod/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JsPatch</title>
+    <link href="https://mxdhqm.com/2015/12/13/jsPatch/"/>
+    <id>https://mxdhqm.com/2015/12/13/jsPatch/</id>
+    <published>2015-12-13T01:23:15.000Z</published>
+    <updated>2019-04-04T07:16:51.215Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://mxdhqm.com&quot;&gt;https://mxdhqm.com&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="https://mxdhqm.com/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="https://mxdhqm.com/tags/iOS/"/>
+    
+      <category term="NSTime" scheme="https://mxdhqm.com/tags/NSTime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NSTime小记</title>
+    <link href="https://mxdhqm.com/2015/12/13/NSTime/"/>
+    <id>https://mxdhqm.com/2015/12/13/NSTime/</id>
+    <published>2015-12-13T01:23:15.000Z</published>
+    <updated>2016-08-03T07:51:08.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;NSRunLoopCommonModes和Timer&lt;/p&gt;
+&lt;p&gt; 当使用NSTimer的scheduledTimerWithTimeInterval方法时。事实上此时Timer会被加入到当前线程的Run Loop中，且模式是默认的NSDefaultRunLoopMode。而如果当前线程就是主线程，也就是UI线程时，某些UI事件，比如UIScrollView的拖动操作，会将Run Loop切换成NSEventTrackingRunLoopMode模式，在这个过程中，默认的NSDefaultRunLoopMode模式中注册的事件是不会被执行的。也就是说，此时使用scheduledTimerWithTimeInterval添加到Run Loop中的Timer就不会执行。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="https://mxdhqm.com/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="https://mxdhqm.com/tags/iOS/"/>
+    
+      <category term="NSTime" scheme="https://mxdhqm.com/tags/NSTime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>布局包含Image和Title的UIButton</title>
+    <link href="https://mxdhqm.com/2015/12/10/custom%20UIButton%20Title%20&amp;%20Image/"/>
+    <id>https://mxdhqm.com/2015/12/10/custom UIButton Title &amp; Image/</id>
+    <published>2015-12-10T14:12:13.000Z</published>
+    <updated>2017-09-06T07:26:04.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;UIButton中的titleEdgeInsets和imageEdgeInsets可以管理button中image和title的布局。 如果对其理解不够深入，用纯数字进行布局管理，经过不断的调试，还是能试出来的，但是如果改变了图片大小或文字长度，又要再来一遍。 作为程序猿，我们不应该放弃任何一个偷懒的机会。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="https://mxdhqm.com/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="https://mxdhqm.com/tags/iOS/"/>
+    
+      <category term="UIButton" scheme="https://mxdhqm.com/tags/UIButton/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建个人博客(三)</title>
+    <link href="https://mxdhqm.com/2015/12/07/Build%20personal%20blog%20three/"/>
+    <id>https://mxdhqm.com/2015/12/07/Build personal blog three/</id>
+    <published>2015-12-07T12:53:11.000Z</published>
+    <updated>2016-08-15T01:16:24.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://mxdhqm.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Blog" scheme="https://mxdhqm.com/tags/Blog/"/>
+    
+      <category term="Hexo" scheme="https://mxdhqm.com/tags/Hexo/"/>
+    
+      <category term="Github Pages" scheme="https://mxdhqm.com/tags/Github-Pages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建个人博客(二)</title>
+    <link href="https://mxdhqm.com/2015/12/06/Build%20personal%20blog%20two/"/>
+    <id>https://mxdhqm.com/2015/12/06/Build personal blog two/</id>
+    <published>2015-12-06T14:01:15.000Z</published>
+    <updated>2016-08-08T02:29:24.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搭建WordPress Blog&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="教程" scheme="https://mxdhqm.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Blog" scheme="https://mxdhqm.com/tags/Blog/"/>
+    
+      <category term="WordPress" scheme="https://mxdhqm.com/tags/WordPress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建个人博客(一)</title>
+    <link href="https://mxdhqm.com/2015/12/05/Build%20personal%20blog%20one/"/>
+    <id>https://mxdhqm.com/2015/12/05/Build personal blog one/</id>
+    <published>2015-12-05T07:22:46.000Z</published>
+    <updated>2016-08-04T02:05:48.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此处记录从笔记到博客一步步的转化的过程&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="教程" scheme="https://mxdhqm.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Blog" scheme="https://mxdhqm.com/tags/Blog/"/>
+    
+      <category term="笔记" scheme="https://mxdhqm.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关闭Android File Transfer自启</title>
+    <link href="https://mxdhqm.com/2015/07/13/remove%20Android%20File%20Transfer/"/>
+    <id>https://mxdhqm.com/2015/07/13/remove Android File Transfer/</id>
+    <published>2015-07-13T07:22:46.000Z</published>
+    <updated>2016-08-03T07:51:50.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在Mac中查看安卓手机数据要用到Android File Transfer这个软件，但是一直删不掉自启，使用CleanMyMac删除后，再次启动任然能自启，使用以下方法达到屏蔽自启&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Mac日常" scheme="https://mxdhqm.com/categories/Mac%E6%97%A5%E5%B8%B8/"/>
+    
+    
+      <category term="Mac" scheme="https://mxdhqm.com/tags/Mac/"/>
+    
+      <category term="Android File Transfer" scheme="https://mxdhqm.com/tags/Android-File-Transfer/"/>
+    
+  </entry>
+  
+</feed>
